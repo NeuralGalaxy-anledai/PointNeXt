@@ -71,7 +71,7 @@ In the PointNeXt project, we propose a new and flexible codebase for point-based
 We provide a simple bash file to install the environment:
 
 ```
-git clone --recurse-submodules git@github.com:guochengqian/PointNeXt.git
+git clone --recurse-submodules git@github.com:NeuralGalaxy-anledai/PointNeXt.git
 cd PointNeXt
 source update.sh
 source install.sh
