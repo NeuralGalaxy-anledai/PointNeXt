@@ -25,7 +25,8 @@ conda create -n openpoints -y python=3.7 numpy=1.20 numba
 conda activate openpoints
 
 # please always double check installation for pytorch and torch-scatter from the official documentation
-conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.3 -c pytorch -c nvidia
+# conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.3 -c pytorch -c nvidia
+conda install -y pytorch=1.10.1 torchvision cudatoolkit-dev=11.3 -c pytorch -c conda-forge
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.1+cu113.html
 
 pip install -r requirements.txt
